@@ -1,5 +1,5 @@
 # reaction_condition_vae
-Pytorch implementation of the model described in the paper [Generative Modeling to Predict Multiple Suitable Conditions for Chemical Reactions](#)
+Pytorch implementation of the model described in the paper [Generative Modeling to Predict Multiple Suitable Conditions for Chemical Reactions](https://pubs.acs.org/doi/10.1021/acs.jcim.2c01085)
 
 ## Components
 - **data/get_data.py** - script for preprocessing data
@@ -23,5 +23,17 @@ Pytorch implementation of the model described in the paper [Generative Modeling 
 - **RDKit**
 
 ## Citation
+```
+@Article{Kwon2022,
+  title={Generative modeling to predict multiple suitable conditions for chemical reactions},
+  author={Kwon, Youngchun and Kim, Sun and Choi, Youn-Suk and Kang, Seokho},
+  journal={Journal of Chemical Information and Modeling},
+  volume={62},
+  number={23},
+  pages={5952-5960},
+  year={2022},
+  doi={10.1021/acs.jcim.2c01085}
+}
+```
 
 
