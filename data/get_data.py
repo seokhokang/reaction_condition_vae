@@ -158,7 +158,7 @@ def get_graph_data(data, keys, filename):
 if __name__ == "__main__":
 
     rtype = 'example'
-    file_path = './data_%s.npz'%rtype
+    file_path = './data/data_%s.npz'%rtype
     frac_trn = 0.8
 
     [reaction_dict, clist] = np.load(file_path, allow_pickle = True)['data']
@@ -172,8 +172,8 @@ if __name__ == "__main__":
     print(file_path, len(reaction_keys), len(trn_keys), len(tst_keys))
     print(clist)
     
-    filename = './data_dgl_%s_%s.pkl'%(rtype, 'trn')
+    filename = './data/data_dgl_%s_%s.pkl'%(rtype, 'trn')
     get_graph_data(reaction_dict, trn_keys, filename)
         
-    filename = './data_dgl_%s_%s.pkl'%(rtype, 'tst')
+    filename = './data/data_dgl_%s_%s.pkl'%(rtype, 'tst')
     get_graph_data(reaction_dict, tst_keys, filename)
