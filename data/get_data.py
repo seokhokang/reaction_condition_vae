@@ -81,7 +81,7 @@ def get_graph_data(data, keys, filename):
         return g
     
     atom_list = ['Ag','Al','As','B','Bi','Br','C','Cl','Co','Cr','Cu','F','Ge','H','I','In','K','Li','Mg','Mo','N','Na','O','P','Pd','S','Sb','Se','Si','Sn','Te','Zn']
-    charge_list = [-1, 0, 1, 2, 0]
+    charge_list = [-1, 0, 1, 2]
     degree_list = [1, 2, 3, 4, 5, 6, 0]
     hybridization_list = ['SP','SP2','SP3','SP3D','SP3D2','S','UNSPECIFIED']
     hydrogen_list = [1, 2, 3, 0]
